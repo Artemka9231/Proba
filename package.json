@@ -18,8 +18,12 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "npm rub build",
-    "deloy": "gh-pages -d build",
+
+
+
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -b master",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
